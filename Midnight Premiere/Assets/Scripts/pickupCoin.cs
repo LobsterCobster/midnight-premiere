@@ -43,7 +43,7 @@ public class pickupCoin : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                //coinsCollected = coinsCollected + 1;
+                coinsCollected = coinsCollected + 1;
                 collectionSystem.amountCollected = collectionSystem.amountCollected + 1; // from collectCoin.cs
                 
                 //These values change when a coin is picked up, making Slender more difficult.

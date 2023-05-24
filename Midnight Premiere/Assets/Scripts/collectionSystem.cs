@@ -9,7 +9,7 @@ public class collectionSystem : MonoBehaviour
     //public Collider trigger;
     public int finalAmount;
     public Text collectionText;
-    public GameObject triggerObj, triggerObj1, moneyText;
+    public GameObject triggerObj, triggerObj1, escapeText;
     
     void Start()
     {
@@ -18,12 +18,12 @@ public class collectionSystem : MonoBehaviour
     
     void Update()
     {
-        if (amountCollected >= finalAmount)
+        if (amountCollected == finalAmount)
         {
             triggerObj.SetActive(true);
             triggerObj1.SetActive(false);
-            //collectionText.gameObject.SetActive(false); // added to resolve issue introduced with render change
-            moneyText.SetActive(true);
+            collectionText.gameObject.SetActive(false); // added to resolve issue introduced with render change
+            escapeText.SetActive(true);
             //trigger.enabled = true;
         }
         

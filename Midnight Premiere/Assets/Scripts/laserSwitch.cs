@@ -10,7 +10,6 @@ public class laserSwitch : MonoBehaviour
     public bool interactable, toggle;
     public Text intText;
     public string intString;
-    public static int lasersActive;
 
     void OnTriggerStay(Collider other)
     {
@@ -34,20 +33,12 @@ public class laserSwitch : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-        lasersActive = 3;
-    }
-
     void Update()
     {
         if (interactable == true)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                //lasersActive = lasersActive - 1;
-                laserSystem.lasersActive = laserSystem.lasersActive - 1;
-                
                 switchAnim.SetTrigger("pull");
                 lasers.SetActive(false);
                 interaction.SetActive(false);

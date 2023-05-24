@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class safe : MonoBehaviour
 {
-    public GameObject safecode, numtext, incorrecttext, correcttext, interaction, canceltext;
+    public GameObject safecode, numtext, incorrecttext, correcttext, interaction;
     public SC_FPSController playerscript;
     public Animator safeOpen;
     public Text numTex;
@@ -64,7 +64,6 @@ public class safe : MonoBehaviour
                 numtext.SetActive(true);
                 correcttext.SetActive(false);
                 incorrecttext.SetActive(false);
-                canceltext.SetActive(true);
                 stringCharacters = 0;
                 codeString = "";
                 but1.interactable = true;
@@ -83,7 +82,6 @@ public class safe : MonoBehaviour
                 playerRigid.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezePositionX |
                                           RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezePositionZ |
                                           RigidbodyConstraints.FreezeRotationX;
-                playerscript.enabled = true;
                 interactable = false;
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
@@ -145,7 +143,6 @@ public class safe : MonoBehaviour
         numtext.SetActive(true);
         correcttext.SetActive(false);
         incorrecttext.SetActive(false);
-        canceltext.SetActive(true);
         stringCharacters = 0;
         codeString = "";
         but1.interactable = true;

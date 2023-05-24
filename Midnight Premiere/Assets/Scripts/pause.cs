@@ -20,7 +20,6 @@ public class pause : MonoBehaviour
             if (toggle == false);
             {
                 pausemenu.SetActive(false);
-                helpmenu.SetActive(false);
                 AudioListener.pause = false;
                 Time.timeScale = 1;
                 playerScript.enabled = true;

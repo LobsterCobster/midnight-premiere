@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class pickupKey : MonoBehaviour
 {
-    public GameObject interaction, key;
+    public GameObject interaction, key, keyimage;
     public AudioSource pickup;
     public bool interactable;
     public Text intText;
@@ -40,6 +40,7 @@ public class pickupKey : MonoBehaviour
                 interactable = false;
                 pickup.Play();
                 key.SetActive(false);
+                keyimage.SetActive(true);
             }
         }
     }

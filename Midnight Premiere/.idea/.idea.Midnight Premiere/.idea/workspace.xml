@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a821188-ca5e-4106-96d5-1c1967883b6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/enemyIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/enemyIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/enemyJumpscare.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/enemyJumpscare.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/enemyRun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/enemyRun.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/enemyWalk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/enemyWalk.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Icons/Secrets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Icons/Secrets.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midnight Premiere/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midnight Premiere/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/collectionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/collectionSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/laserSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/laserSwitch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/pause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/pause.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/pickupKey.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/pickupKey.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Test Mats/4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Test Mats/4.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/SecurityCamera.renderTexture" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/SecurityCamera.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/hidingPlace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/hidingPlace.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/lookAtSlender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/lookAtSlender.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/safe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/safe.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +111,7 @@
       <workItem from="1685019466843" duration="57000" />
       <workItem from="1685020632343" duration="55000" />
       <workItem from="1685021246068" duration="91000" />
+      <workItem from="1685075220091" duration="5017000" />
     </task>
     <servers />
   </component>

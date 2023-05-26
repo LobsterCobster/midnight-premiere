@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class hidingPlace : MonoBehaviour
 {
-    //public GameObject hideText
     public GameObject interact;
     public GameObject stopHideText;
     public AudioSource hidingSound;
@@ -17,6 +16,7 @@ public class hidingPlace : MonoBehaviour
     public Text intText;
     public string intString;
     public float loseDistance;
+    public GameObject walkFootsteps, runFootsteps; // so i can mute them when hiding
     
     void Start()
     {
@@ -39,7 +39,6 @@ public class hidingPlace : MonoBehaviour
     {
         if (other.CompareTag("MainCamera"))
         {
-            //hideText.SetActive(false);
             interact.SetActive(false);
             interactable = false;
         }
@@ -51,7 +50,6 @@ public class hidingPlace : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                //hideText.SetActive(false);
                 hidingSound.Play();
                 interact.SetActive(false);
                 interactable = false;
@@ -73,6 +71,10 @@ public class hidingPlace : MonoBehaviour
         
         if(hiding == true)
         {
+            interact.SetActive(false);
+            walkFootsteps.SetActive(false);
+            runFootsteps.SetActive(false);
+            
             if (Input.GetKeyDown(KeyCode.Q))
             {
                 interact.SetActive(true);
@@ -82,6 +84,8 @@ public class hidingPlace : MonoBehaviour
                 normalPlayer.SetActive(true);
                 hidingPlayer.SetActive(false);
                 hiding = false;
+                walkFootsteps.SetActive(true);
+                runFootsteps.SetActive(true);
             }
         }
     }

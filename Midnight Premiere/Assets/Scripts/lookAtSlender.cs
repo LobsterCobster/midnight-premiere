@@ -11,7 +11,7 @@ public class lookAtSlender : MonoBehaviour
     public Color color;
     public float drainRate, rechargeRate, health, healthDamage, healthRechargeRate, maxStaticAmount;
     public float audioIncreaseRate, audioDecreaseRate;
-    public bool looking, canRecharge;
+    public bool canRecharge;
     public AudioSource staticSound;
     public string deathScene;
     public Slider healthSlider;
@@ -24,15 +24,15 @@ public class lookAtSlender : MonoBehaviour
         health = 100f;
     }
 
-    void OnBecameVisible()
-    {
-        looking = true;
-    }
-    
-    void OnBecameInvisible()
-    {
-        looking = false;
-    }
+    // void OnBecameVisible()
+    // {
+    //     looking = true;
+    // }
+    //
+    // void OnBecameInvisible()
+    // {
+    //     looking = false;
+    // }
     
     void Update()
     {
@@ -59,33 +59,14 @@ public class lookAtSlender : MonoBehaviour
         
         if (detectedScript.detected == true)
         {
-            // if (looking == true)
-            // {
-            //     color.a = color.a + drainRate * Time.deltaTime;
-            //     health = health - healthDamage * Time.deltaTime;
-            //     staticSound.volume = staticSound.volume + audioIncreaseRate * Time.deltaTime;
-            // }
-            
             color.a = color.a + drainRate * Time.deltaTime;
             health = health - healthDamage * Time.deltaTime;
             staticSound.volume = staticSound.volume + audioIncreaseRate * Time.deltaTime;
         }
-        
-        // if (looking == false || detectedScript.detected == false)
-        // {
-        //     color.a = color.a - rechargeRate * Time.deltaTime;
-        //     
-        //     if (canRecharge == true)
-        //     {
-        //         health = health + healthRechargeRate * Time.deltaTime;
-        //     }
-        //     
-        //     staticSound.volume = staticSound.volume - audioDecreaseRate * Time.deltaTime;
-        // }
-        
+
         if (detectedScript.detected == false)
         {
-            color.a = color.a - rechargeRate * Time.deltaTime;
+            color.a = 0f;
 
             if (canRecharge == true)
             {

@@ -82,6 +82,7 @@ public class safe : MonoBehaviour
                 playerRigid.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezePositionX |
                                           RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezePositionZ |
                                           RigidbodyConstraints.FreezeRotationX;
+                playerscript.enabled = true;
                 interactable = false;
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;

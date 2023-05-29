@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a821188-ca5e-4106-96d5-1c1967883b6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midnight Premiere/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midnight Premiere/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/hidingPlace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/hidingPlace.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/lookAtSlender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/lookAtSlender.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/safe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/safe.cs" afterDir="false" />
-    </list>
+    <list default="true" id="4a821188-ca5e-4106-96d5-1c1967883b6d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +105,7 @@
       <workItem from="1685019466843" duration="57000" />
       <workItem from="1685020632343" duration="55000" />
       <workItem from="1685021246068" duration="91000" />
-      <workItem from="1685075220091" duration="5017000" />
+      <workItem from="1685075220091" duration="5650000" />
     </task>
     <servers />
   </component>

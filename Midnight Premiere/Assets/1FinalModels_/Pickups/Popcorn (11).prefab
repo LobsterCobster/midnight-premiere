@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 851941332429217498}
   - component: {fileID: 851941332429217499}
   - component: {fileID: 851941332429217572}
-  - component: {fileID: 851941332429217574}
+  - component: {fileID: 7963337104224803747}
   m_Layer: 0
   m_Name: Popcorn (11)
   m_TagString: Untagged
@@ -97,7 +97,7 @@ CapsuleCollider:
   m_Height: 2.4085832
   m_Direction: 1
   m_Center: {x: 0, y: 0.049515493, z: 0.650762}
---- !u!114 &851941332429217574
+--- !u!114 &7963337104224803747
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

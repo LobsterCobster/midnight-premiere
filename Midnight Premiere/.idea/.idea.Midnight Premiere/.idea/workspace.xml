@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/enemyMonsterAIraycast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/hidingPlace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/laserSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/moveToDestination.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/pickupWallet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/safeCode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/soapKill.cs" root0="FORCE_HIGHLIGHTING" />
@@ -108,7 +109,8 @@
       <workItem from="1685020632343" duration="55000" />
       <workItem from="1685021246068" duration="91000" />
       <workItem from="1685075220091" duration="5650000" />
-      <workItem from="1685505299543" duration="348000" />
+      <workItem from="1685505299543" duration="987000" />
+      <workItem from="1685508399019" duration="330000" />
     </task>
     <servers />
   </component>

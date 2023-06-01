@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class laserSwitchCursed : MonoBehaviour
 {
     public Animator switchAnim;
-    public GameObject lasers, interaction, monster, centertext;
+    public GameObject lasers, interaction, monster, centertext, childObject;
     public AudioSource warningSound, spawnSound;
     public bool interactable, toggle;
     public Text intText, centerText;
@@ -16,11 +16,29 @@ public class laserSwitchCursed : MonoBehaviour
     float delayBeforeWarning = 2f;
     float delayBeforeSpawn = 2f;
     float delayBeforeDespawn = 2f;
+    private Shader originalShader;
+    private Renderer childRenderer;
+    public Shader newShader;
 
+    private void UpdateShader()
+    {
+        if (interactable)
+        {
+            childRenderer.material.shader = newShader;
+        }
+        else
+        {
+            childRenderer.material.shader = originalShader;
+        }
+    }
+    
     private IEnumerator Start()
     {
         // Start interacting with the switch
         lasersActive = 3;
+        
+        childRenderer = childObject.GetComponent<Renderer>();
+        originalShader = childRenderer.material.shader;
 
         while (true)
         {
@@ -33,6 +51,7 @@ public class laserSwitchCursed : MonoBehaviour
                 interaction.SetActive(false);
                 toggle = true;
                 interactable = false;
+                UpdateShader();
                 
                 yield return new WaitForSeconds(delayBeforeWarning);
                 
@@ -53,6 +72,10 @@ public class laserSwitchCursed : MonoBehaviour
 
                 monster.transform.position = dest1.position;
             }
+            else
+            {
+                UpdateShader();
+            }
 
             yield return null;
         }
@@ -67,6 +90,7 @@ public class laserSwitchCursed : MonoBehaviour
                 interaction.SetActive(true);
                 interactable = true;
                 intText.text = intString;
+                UpdateShader();
             }
         }
     }
@@ -77,6 +101,7 @@ public class laserSwitchCursed : MonoBehaviour
         {
             interaction.SetActive(false);
             interactable = false;
+            UpdateShader();
         }
     }
 }

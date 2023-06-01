@@ -16,10 +16,35 @@ public class pickupCoinCursed : MonoBehaviour
     float delayBeforeWarning = 2f;
     float delayBeforeSpawn = 2f;
     float delayBeforeDespawn = 2f;
+    public Shader interactableShader; // Reference to the interactable shader
 
+    private Shader originalShader; // Original shader of the object
+    private Renderer objectRenderer; // Renderer component of the object
+
+    // private void Start()
+    // {
+    //     objectRenderer = GetComponent<Renderer>();
+    //     originalShader = objectRenderer.material.shader;
+    // }
+
+    private void UpdateShader()
+    {
+        if (interactable)
+        {
+            objectRenderer.material.shader = interactableShader;
+        }
+        else
+        {
+            objectRenderer.material.shader = originalShader;
+        }
+    }
+    
     private IEnumerator Start()
     {
         coinsCollected = 0;
+        
+        objectRenderer = GetComponent<Renderer>();
+        originalShader = objectRenderer.material.shader;
 
         while (true)
         {
@@ -31,6 +56,7 @@ public class pickupCoinCursed : MonoBehaviour
                 pickupSound.Play();
                 interact.SetActive(false);
                 interactable = false;
+                UpdateShader(); // Update the shader when interactable is true
                 coinMeshRenderer.enabled = false;
                 
                 yield return new WaitForSeconds(delayBeforeWarning);
@@ -121,6 +147,7 @@ public class pickupCoinCursed : MonoBehaviour
             interact.SetActive(true);
             interactable = true;
             intText.text = intString;
+            UpdateShader(); // Update the shader when interactable is true
         }
     }
 
@@ -130,6 +157,7 @@ public class pickupCoinCursed : MonoBehaviour
         {
             interact.SetActive(false);
             interactable = false;
+            UpdateShader(); // Update the shader when interactable is true
         }
     }
 }

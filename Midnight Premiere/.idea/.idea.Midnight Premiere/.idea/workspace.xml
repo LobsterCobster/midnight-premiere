@@ -7,6 +7,9 @@
     <list default="true" id="4a821188-ca5e-4106-96d5-1c1967883b6d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midnight Premiere/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midnight Premiere/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/lookAtSlender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/lookAtSlender.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/pickupNote.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/pickupNote.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/safeCode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/safeCode.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/pickupWallet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/safeCode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/soapKill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/triggerAlarm.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2Q8Mb8efvISt6udMvcF2cGXe9JS" />
   <component name="ProjectViewState">
@@ -113,7 +117,8 @@
       <workItem from="1685075220091" duration="5650000" />
       <workItem from="1685505299543" duration="987000" />
       <workItem from="1685508399019" duration="922000" />
-      <workItem from="1685511465602" duration="1526000" />
+      <workItem from="1685511465602" duration="10792000" />
+      <workItem from="1685575621156" duration="8053000" />
     </task>
     <servers />
   </component>

@@ -9,6 +9,7 @@ public class pickupNote : MonoBehaviour
     public bool interactable, toggle;
     public GameObject interact, noteimage, notetext;
     public AudioSource pickupSound;
+    public MeshRenderer noteMeshRenderer;
     public string intString;
     public string noteString;
     public Text intText;
@@ -51,6 +52,7 @@ public class pickupNote : MonoBehaviour
                 StartCoroutine(disableDialogue());
                 toggle = true;
                 interactable = false;
+                noteMeshRenderer.enabled = false;
             }
         }
     }

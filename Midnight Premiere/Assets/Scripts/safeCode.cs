@@ -14,6 +14,7 @@ public class safeCode : MonoBehaviour
     public Text intText;
     public Text noteText;
     public float noteTime;
+    public MeshRenderer noteMeshRenderer;
 
     private void OnTriggerStay(Collider other)
     {
@@ -53,6 +54,7 @@ public class safeCode : MonoBehaviour
                 interactable = false;
                 codeimage.SetActive(true);
                 codetext.SetActive(true);
+                noteMeshRenderer.enabled = false;
             }
         }
     }

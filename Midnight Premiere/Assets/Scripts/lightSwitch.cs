@@ -11,7 +11,6 @@ public class lightSwitch : MonoBehaviour
     public Renderer lightBulb;
     public Material offLight, onLight;
     public AudioSource lightSwitchSound;
-    public Animator switchAnim;
     public Text intText;
     public string intString;
     private Shader originalShader;
@@ -50,9 +49,7 @@ public class lightSwitch : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 toggle = !toggle;
-                //lightSwitchSound.Play();
-                switchAnim.ResetTrigger("press");
-                switchAnim.SetTrigger("press");
+                lightSwitchSound.Play();
             }
             // Change shader on child object
             childRenderer.material.shader = newShader;

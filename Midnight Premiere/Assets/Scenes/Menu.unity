@@ -232,6 +232,7 @@ RectTransform:
   - {fileID: 1831740456}
   - {fileID: 909580917}
   - {fileID: 674506955}
+  - {fileID: 900079019}
   - {fileID: 476498116}
   - {fileID: 1924401916}
   - {fileID: 1736094652}
@@ -485,11 +486,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 272989953}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 247, y: 210.9}
+  m_AnchoredPosition: {x: 15.6, y: 379.8}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476498117
@@ -525,22 +526,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'CONTROLS
-
-
-    ''W'',''A'',''S'',''D'' + MOUSE    -   MOVE + LOOK
-
-    ''E''   
-    -    INTERACT
-
-    ''F''    -    FLASHLIGHT ON/OFF
-
-    ''Q''   -    KEYPAD CANCEL
-
-    ''SHIFT''   
-    -    SPRINT
-
-    ''ESC''    -    PAUSE MENU'
+  m_Text: "CONTROLS\n\nPAUSE MENU: \t\t'ESC'\nMOVE + LOOK:\t\t'W','A','S','D' + MOUSE\nINTERACT:\t\t\t'E'   
+    \nFLASHLIGHT:\t\t'F'    \nSPRINT:\t\t\t\t\t 'SHIFT'\nEXIT:\t\t\t\t\t\t'Q'    "
 --- !u!222 &476498118
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -921,6 +908,85 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &900079018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900079019}
+  - component: {fileID: 900079021}
+  - component: {fileID: 900079020}
+  m_Layer: 5
+  m_Name: Story
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &900079019
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900079018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 272989953}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -96}
+  m_SizeDelta: {x: 790, y: 585}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &900079020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900079018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 80
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 8
+    m_MaxSize: 80
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: STORY
+--- !u!222 &900079021
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900079018}
+  m_CullTransparentMesh: 1
 --- !u!1 &909580916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,7 +1718,7 @@ RectTransform:
   m_Children:
   - {fileID: 1546480971}
   m_Father: {fileID: 272989953}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1937,11 +2003,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 272989953}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -244, y: -159.6}
+  m_AnchoredPosition: {x: -21, y: 341.6}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1924401917
@@ -1980,28 +2046,24 @@ MonoBehaviour:
   m_Text: 'HINTS
 
 
-    DON''T FORGET TO PICK UP THE FLASHLIGHT.
+    Use <flashlight>
 
-    FLIP LIGHT SWITCHES
-    AS YOU GO SO YOU CAN REMEMBER WHERE YOU''VE BEEN.
+    Turn on/off <lightswitch>
 
-    DON''T LET THE ROBOT CATCH
-    YOU.
+    Collect
+    <coins>
 
-    DON''T LET THE SCARECROW SEE YOU.
+    Disable lasers <securityswitch>
 
-    GATHER 10 COINS FROM THE LOCKED
-    ROOMS TO OPEN THE LEVEL EXIT.
+    Avoid <mother> <father>
 
-    THE KEY IS IN THE SAFE.
+    Pickup
+    <energy drink> <popcorn> <battery>
 
-    THE SAFE CODE
-    IS IN THE TOP RIGHT ROOM ON A STICKY NOTE.
+    Read <stickynotes>
 
-    THE LASERS ARE DISABLED BY THE
-    FLIP OF A SWITCH.
-
-    HAVE FUN!'
+    Look out for
+    <key>'
 --- !u!222 &1924401918
 CanvasRenderer:
   m_ObjectHideFlags: 0

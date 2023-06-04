@@ -482,10 +482,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'YOU ESCAPED TO THE MOVIES!
-
-
-    WITH YOUR PARENTS'' LIFE SAVINGS!!!'
+  m_Text: "You enjoyed your time at the movies. \n\nLet\u2019s just hope your parents
+    don\u2019t notice the safe door open\u2026"
 --- !u!222 &681395461
 CanvasRenderer:
   m_ObjectHideFlags: 0

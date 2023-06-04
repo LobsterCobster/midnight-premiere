@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a821188-ca5e-4106-96d5-1c1967883b6d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midnight Premiere/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midnight Premiere/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1FinalModels_/Father Animations/FatherAnimController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1FinalModels_/Father Animations/FatherAnimController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/enemyJumpscare.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/enemyJumpscare.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/automatedDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/automatedDoor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/collectionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/collectionSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enemyMonsterAIraycast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enemyMonsterAIraycast.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/flashlight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/flashlight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/laserSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/laserSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/nextLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/nextLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/raycastSlender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/raycastSlender.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +116,8 @@
       <workItem from="1685508399019" duration="922000" />
       <workItem from="1685511465602" duration="10792000" />
       <workItem from="1685575621156" duration="20500000" />
-      <workItem from="1685743892884" duration="12826000" />
+      <workItem from="1685743892884" duration="13425000" />
+      <workItem from="1685775652146" duration="1458000" />
     </task>
     <servers />
   </component>
